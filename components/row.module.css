@@ -1,0 +1,26 @@
+.row:nth-child(2n) {
+  background-color: rgb(227, 240, 252);
+  color:rgb(43, 34, 36);
+}
+
+.row td {
+  border: 1px solid black;
+  align-items: center;
+}
+.delete {
+  background: none; 
+  border: 1px solid rgb(240, 35, 35);
+  color: red;
+  height: 2em;
+  padding: 1% 5%;
+  letter-spacing: 0.25px;
+  font-size: 0.8em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.delete:hover{
+ background: rgb(243, 236, 236);
+}
+.logo{
+  margin-right: 0.3em;
+}

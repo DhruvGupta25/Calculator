@@ -1,0 +1,29 @@
+.table {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+  background: white;
+  border: 1px solid black;
+  outline: none;
+  overflow: none;
+}
+.table_body{
+  padding: 0px;
+  margin: 0px;
+  width:100%;
+  border: 1px solid black;
+}
+.header {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  background-color: rgba(53, 3, 53, 0.895);
+  color: white;
+  border: 3px solid black;
+}
+.header th {
+  margin: 0px;
+  padding: 0px;
+  border: 2px solid rgba(53, 3, 53, 0.895);
+}
