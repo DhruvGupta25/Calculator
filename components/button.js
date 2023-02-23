@@ -1,4 +1,5 @@
 import classes from "./button.module.css";
+import {FiDelete} from 'react-icons/fi';
 function Button(props) {
   return props.text === "C" ? (
     <div
@@ -14,7 +15,15 @@ function Button(props) {
     >
       {props.text}
     </div>
-  ) : (
+  ) : props.text === "X" ?(
+      <div
+      className={props.last ? classes.last_button : classes.button}
+      onClick={props.onDelete}
+      >
+       <FiDelete/>
+      </div>  
+    )
+    :(
     <div
       className={props.last ? classes.last_button : classes.button}
       onClick={props.onClick}

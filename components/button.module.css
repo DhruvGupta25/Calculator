@@ -1,6 +1,6 @@
 .button {
   color: rgba(255, 255, 255, 0.7);
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-family: inherit;
   outline: none;
   border-radius: 100%;
@@ -21,7 +21,7 @@
 .last_button {
   color: rgba(255, 255, 255, 0.7);
   background: none;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-family: inherit;
   text-align: center;
   outline: none;

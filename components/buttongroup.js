@@ -8,24 +8,28 @@ function ButtonGroup(props) {
         onClick={props.onClick}
         onClear={props.onClear}
         onEvaluate={props.onEvaluate}
+        onDelete={props.onDelete}
         text={array[0]}
       />
       <Button
         onClick={props.onClick}
         onClear={props.onClear}
         onEvaluate={props.onEvaluate}
+        onDelete={props.onDelete}
         text={array[1]}
       />
       <Button
         onClick={props.onClick}
         onClear={props.onClear}
         onEvaluate={props.onEvaluate}
+        onDelete={props.onDelete}
         text={array[2]}
       />
       <Button
         onClick={props.onClick}
         onClear={props.onClear}
         onEvaluate={props.onEvaluate}
+        onDelete={props.onDelete}
         last="1"
         text={array[3]}
       />

@@ -18,7 +18,7 @@ export function deleteItemFromStorage(array, id, array1) {
   return newExpressions;
 }
 
-export function addItemToStorage(array, data, result, isValid) {
+export function addItemToStorage(array, data, result) {
   let items = JSON.parse(localStorage.getItem(array));
   if (items === null) {
     items = [];
@@ -36,4 +36,17 @@ export function addItemToStorage(array, data, result, isValid) {
     timestamp: Date.now(),
   });
   localStorage.setItem(array, JSON.stringify(items));
+}
+export function isOperator(text){
+  if(text==='+' || text==='-' || text==='*' || text==='/' || text==='%'){
+     return true;   
+  }
+  return false;
+}
+
+export function isOperatorBinary(text){
+  if(text==='*' || text==='/' || text==='%'){
+    return true;
+  }
+  return false;
 }

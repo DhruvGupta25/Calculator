@@ -4,9 +4,9 @@ import classes from "./main-navigation.module.css";
 function MainNavigation() {
   return (
     <nav className={classes.header}>
-      <div class={classes.container}>
+      <div className={classes.container}>
           <input type="checkbox" name="" id=""/>
-          <div class={classes.hamburger_lines}>
+          <div className={classes.hamburger_lines}>
               <span className={classes.line1}></span>
               <span className={classes.line2}></span>
               <span className={classes.line3}></span>

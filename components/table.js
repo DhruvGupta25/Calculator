@@ -17,6 +17,7 @@ function Table(props) {
             return (
               <Row
                 index={i + 1}
+                key={i + 1}
                 id={expression.id}
                 text={expression.text}
                 output={expression.result}
